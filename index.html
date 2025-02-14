@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>負荷をかける</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+      <div class="container">
+        <div class="attack-container">
+          <h2>負荷かける</h2>
+          <p>サイト名</p>
+          <input type="text" class="site-name"></input>
+              <p>何ms秒に一回</p>
+          <input type="text" class="attack-ms"></input>
+                <p>どの数並列処理するか</p>
+          <input type="text" class="howmany-attacks-scripts"></input>
+        <div class="attack-button" onclick="attackHandler()">
+          <p>スタート</p>
+        </div>
+        </div>
+      </div>
+    </body>
+    <script src="index.js"></script>
+</html>
